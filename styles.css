@@ -1,0 +1,87 @@
+body{
+	background-color: #F0F6F9;
+	text-align: center;
+	color: black;
+	font-family: helvertical;
+	font-size: 15px;
+	font-weight: lighter;
+}
+h1, h2, h3 {
+	font-family: '	Roboto', sans-serif;
+}
+h1{
+	color: black;
+	font-size: 40px;
+	font-weight: bolder;
+}
+h2{
+	color: #575F7D;
+	font-size: 32px;
+	font-weight: lighter;
+	font-weight: 500;
+	text-align: center;
+}
+a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: lighter;
+	font-weight: 500;
+}
+a:hover {
+  color: black;
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Custom design with class (99% of your design*/
+.container{
+	max-width: 800px;
+	margin: 40px auto;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.design{
+	background-color: white ;
+	text-align: center;
+	box-shadow: 3px 3px 7px grey ;
+	border-radius: 5px ;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 10px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #6B72E1;
+}
+.list-inline i:hover {
+	color: black;
+}
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+	text-align: center;
+}
+#introduction  {
+	padding-bottom: 40px;
+	text-align: center;
+}
